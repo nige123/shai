@@ -1,0 +1,27 @@
+{
+  "auth": "zef:nige123",
+  "build-depends": [],
+  "depends": [
+    "LLM::DWIM"
+  ],
+  "description": "shai (SHell AI) - ask for LLM-powered shell commands.",
+  "license": "Artistic-2.0",
+  "name": "SHAI",
+  "provides": {
+    "SHAI::CLI": "lib/SHAI/CLI.rakumod"
+  },
+  "resources": [],
+  "source-url"  : "git://github.com/nige123/shai.nigelhamilton.com.git",
+  "support" : {
+    "bugtracker" : "https://github.com/nige123/shai.nigelhamilton.com/issues"
+  },
+  "tags"        : [
+    "llm",
+    "shell",
+    "script",
+    "utility",
+    "coding"
+  ],
+  "test-depends": [],
+  "version": "1"
+}

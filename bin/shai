@@ -1,0 +1,15 @@
+#!/usr/bin/env raku
+
+#--------------------------------------------------------------------------------
+# Nigel Hamilton (2024-now) - Artistic Licence 2.0
+#
+#   shai - SHell AI - LLM-powered shell commands 
+#
+#   Usage:
+#    
+#       shai list all the files largest first    -- explain what some code does
+#
+#--------------------------------------------------------------------------------
+
+use lib 'lib';
+use SHAI::CLI;
