@@ -1,31 +1,28 @@
 {
-  "auth": "zef:nige123",
-  "authors": [
-    "Nigel Hamilton"
-  ],
-  "build-depends": [
-  ],
-  "depends": [
-    "JSON::Fast",
-    "LLM::DWIM"
-  ],
-  "description": "shai (SHell AI) - ask for LLM-powered shell commands.",
-  "license": "Artistic-2.0",
-  "name": "SHAI",
-  "provides": {
-    "SHAI::CLI": "lib/SHAI/CLI.rakumod"
-  },
-  "resources": [
-  ],
-  "source-url": "git://github.com/nige123/shai.git",
-  "support": {
-    "bugtracker": "https://github.com/nige123/shai/issues"
-  },
-  "tags": [
-    "AI",
-    "LLM"
-  ],
-  "test-depends": [
-  ],
-  "version": "1"
+    "auth": "zef:nige123",
+    "authors": [
+        "Nigel Hamilton"
+    ],
+    "build-depends": [],
+    "depends": [
+        "JSON::Fast",
+        "LLM::DWIM"
+    ],
+    "description": "shai (SHell AI) - ask for LLM-powered shell commands.",
+    "license": "Artistic-2.0",
+    "name": "SHAI::CLI",
+    "provides": {
+        "SHAI::CLI": "lib/SHAI/CLI.rakumod"
+    },
+    "resources": [],
+    "source-url": "https://github.com/nige123/shai.git",
+    "support": {
+        "bugtracker": "https://github.com/nige123/shai/issues"
+    },
+    "tags": [
+        "AI",
+        "LLM"
+    ],
+    "test-depends": [],
+    "version": "2"
 }
