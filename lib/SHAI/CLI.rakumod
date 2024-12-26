@@ -60,9 +60,11 @@ multi sub MAIN (*@args) is export {
 
     my $json-data = dwim $prompt ~ ' ' ~ $spoken-command-request;
 
-    say $prompt;
-    say $json-data;
-
+    if (%*ENV{'SHAI_DEBUG'}) {
+        say "PROMPT:\n" ~ $prompt;
+        say "RESPONSE:\n" ~ $json-data;
+    }
+  
     # parse the JSON with JSON::Fast
     my $llm-response = from-json($json-data);
 
@@ -117,8 +119,9 @@ sub CONFIG is export {
     
         See LLM::DWIM to swap LLMs. 
 
+        Set the SHAI_DEBUG=1 environment variable to see the prompt text and raw LLM response.
+
     CONFIG
-    
 }
 
 
