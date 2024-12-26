@@ -13,8 +13,7 @@
   "license": "Artistic-2.0",
   "name": "SHAI",
   "provides": {
-    "SHAI::CLI": "lib/SHAI/CLI.rakumod",
-    "shai": "bin/shai"
+    "SHAI::CLI": "lib/SHAI/CLI.rakumod"
   },
   "resources": [
   ],
