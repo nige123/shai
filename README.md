@@ -1,30 +1,19 @@
-### multi sub MAIN
+# shai (Shell AI)
 
-```raku
-multi sub MAIN(
-    *@args
-) returns Mu
-```
+LLM-powered utility for generating and executing shell commands.
 
-Turn a spoken command request into a shell command and explanation. Prompt the user before executing.
+It's OK to feel shy about executing a command suggested by an LLM.
 
-### multi sub MAIN
+The command does not execute without your confirmation. Be careful when confirming. 
 
-```raku
-multi sub MAIN(
-    "help"
-) returns Mu
-```
+Usage:
 
-show this help
-
-### multi sub MAIN
-
-```raku
-multi sub MAIN(
-    "config"
-) returns Mu
-```
-
-configure defaults
-
+    shai ask for what you want              -- in plain spoken language
+    
+    shai what processes are using the most memory 
+    shai how much disk space is left
+    shai what programs have ports open
+    shai remove .tmp files larger than 100 meg 
+    
+    shai config                             -- change LLM settings
+    shai help                               -- show this help
