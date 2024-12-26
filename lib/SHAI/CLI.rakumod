@@ -108,6 +108,11 @@ multi sub MAIN ('config') is export {
     CONFIG();
 }
 
+#| show the version
+multi sub MAIN ('version') is export {
+    say "4";
+}
+
 
 sub CONFIG is export {
 
