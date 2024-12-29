@@ -8,7 +8,7 @@ It's OK to feel shy about executing the suggested command.
 
 The command will not execute without your confirmation. Please be careful when confirming. 
 
-## Usage:
+## Usage
 
     shell> shai ask for what you want              -- in natural language
     
@@ -21,13 +21,13 @@ The command will not execute without your confirmation. Please be careful when c
     shell> shai help                               -- show this help
 
 
-## Install:
+## Install
 
-shai is a Raku command-line utiility.
+shai is a Raku command-line utility.
 
     1. Install Raku
 
-        https://raku.org/downloads/
+        [https://raku.org/downloads/](https://raku.org/downloads/)
 
     2. Install shai 
     
