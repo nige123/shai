@@ -9,7 +9,7 @@ It's OK to feel shy about executing the suggested command.
 The command will not execute without your confirmation. Please be careful when confirming. 
 
 ## Usage
-
+```
     shell> shai ask for what you want              -- in natural language
     
     shell> shai what processes are using the most memory 
@@ -19,21 +19,23 @@ The command will not execute without your confirmation. Please be careful when c
     
     shell> shai config                             -- change LLM settings
     shell> shai help                               -- show this help
-
+```
 
 ## Install
 
-shai is a Raku command-line utility.
+**shai** is a Raku command-line utility.
 
-    1. Install Raku
+1. Install Raku
 
-        [https://raku.org/downloads/](https://raku.org/downloads/)
+    [https://raku.org/downloads/](https://raku.org/downloads/)
 
-    2. Install shai 
+2. Install shai 
     
-        shell> zef install SHAI
+    ```
+    shell> zef install SHAI
+    ```
+3. Set up your LLM with LLM::DWIM
 
-    3. Set up your LLM with LLM::DWIM
-
-        shell> rakudoc LLM::DWIM
-        
+    ```
+    shell> rakudoc LLM::DWIM
+    ```
