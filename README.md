@@ -1,19 +1,39 @@
-# shai (Shell AI)
+# shai (shell ai)
 
-LLM-powered utility for generating and executing shell commands.
+LLM-powered utility for requesting and executing shell commands. 
 
-It's OK to feel shy about executing a command suggested by an LLM.
+Make a request using natural language and shai prompts an LLM for a shell command to fulfil your request. 
 
-The command does not execute without your confirmation. Be careful when confirming. 
+It's OK to feel shy about executing the suggested command.
 
-Usage:
+The command will not execute without your confirmation. Please be careful when confirming. 
 
-    shai ask for what you want              -- in plain spoken language
+## Usage:
+
+    shell> shai ask for what you want              -- in natural language
     
-    shai what processes are using the most memory 
-    shai how much disk space is left
-    shai what programs have ports open
-    shai remove .tmp files larger than 100 meg 
+    shell> shai what processes are using the most memory 
+    shell> shai how much disk space is left
+    shell> shai what programs have ports open
+    shell> shai remove .tmp files larger than 100 meg 
     
-    shai config                             -- change LLM settings
-    shai help                               -- show this help
+    shell> shai config                             -- change LLM settings
+    shell> shai help                               -- show this help
+
+
+## Install:
+
+shai is a Raku command-line utiility.
+
+    1. Install Raku
+
+        https://raku.org/downloads/
+
+    2. Install shai 
+    
+        shell> zef install SHAI
+
+    3. Set up your LLM with LLM::DWIM
+
+        shell> rakudoc LLM::DWIM
+        
