@@ -1,28 +1,25 @@
 {
-  "auth": "zef:nige123",
-  "build-depends": [
-  ],
-  "depends": [
-    "JSON::Fast",
-    "LLM::DWIM"
-  ],
-  "description": "shai (SHell AI) - ask for LLM-powered shell commands.",
-  "license": "Artistic-2.0",
-  "name": "SHAI",
-  "provides": {
-    "SHAI::CLI": "lib/SHAI/CLI.rakumod"
-  },
-  "resources": [
-  ],
-  "source-url": "git://github.com/nige123/shai.git",
-  "support": {
-    "bugtracker": "https://github.com/nige123/shai/issues"
-  },
-  "tags": [
-    "llm",
-    "coding"
-  ],
-  "test-depends": [
-  ],
-  "version": "4"
+    "auth": "zef:nige123",
+    "build-depends": [],
+    "depends": [
+        "JSON::Fast",
+        "LLM::DWIM"
+    ],
+    "description": "shai (SHell AI) - ask for LLM-powered shell commands.",
+    "license": "Artistic-2.0",
+    "name": "SHAI",
+    "provides": {
+        "SHAI::CLI": "lib/SHAI/CLI.rakumod"
+    },
+    "resources": [],
+    "source-url": "git://github.com/nige123/shai.git",
+    "support": {
+        "bugtracker": "https://github.com/nige123/shai/issues"
+    },
+    "tags": [
+        "llm",
+        "coding"
+    ],
+    "test-depends": [],
+    "version": "5"
 }
