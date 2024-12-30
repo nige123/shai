@@ -2,7 +2,7 @@
 
 LLM-powered utility for requesting and executing shell commands. 
 
-Make a request using natural language and shai prompts an LLM for a shell command to fulfil your request. 
+Make a request using natural language and **shai** prompts an LLM for a shell command to fulfil your request. 
 
 It's OK to feel shy about executing the suggested command.
 
